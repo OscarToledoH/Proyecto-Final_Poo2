@@ -705,3 +705,4 @@ D:\Documentos\PY\Primer-Avance-POO2\PrimerAvancePOO2\obj\Debug\net8.0\refint\Pri
 D:\Documentos\PY\Primer-Avance-POO2\PrimerAvancePOO2\obj\Debug\net8.0\PrimerAvancePOO2.pdb
 D:\Documentos\PY\Primer-Avance-POO2\PrimerAvancePOO2\obj\Debug\net8.0\PrimerAvancePOO2.genruntimeconfig.cache
 D:\Documentos\PY\Primer-Avance-POO2\PrimerAvancePOO2\obj\Debug\net8.0\ref\PrimerAvancePOO2.dll
+D:\Documentos\PY\Primer-Avance-POO2\PrimerAvancePOO2\obj\Debug\net8.0\PrimerAvancePOO2.sourcelink.json
