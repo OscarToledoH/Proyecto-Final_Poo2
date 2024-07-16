@@ -1,0 +1,49 @@
+@model IEnumerable<ProveedoresModel> 
+
+@{
+    ViewData["Title"] = "Listado de Proveedores:";
+    int Id = 0;
+}
+<link rel="stylesheet" href="~/css/views.css">
+
+<div class="text-center">
+<h1 class="display-2">Listado de Proveedores</h1>
+<a asp-controller="Proveedor" asp-action="ProveedoresAdd" class="btn btn-outline-primary"> Agregar Proveedor </a>
+</div>
+<table class="table table-striped">  
+    <thead>
+<tr>
+    <th scope="col">Acciones </th>
+    <th scope="col">ID</th>
+    <th scope="col">Nombre</th>
+    <th scope="col">Teléfono</th>
+    <th scope="col">Dirección</th>
+    <th scope="col">Email</th>
+
+</tr>
+
+    </thead>
+<tbody>
+@foreach (var proveedor in Model)
+{
+    {
+        Id++;
+    }
+    <tr>
+        <td>
+<a class="btn btn-primary" asp-controller="Proveedor" asp-action="ProveedoresEdit" asp-route-id="@proveedor.Id">Editar</a>
+<a class="btn btn-danger" asp-controller="Proveedor" asp-action="ProveedoresDeleted" asp-route-id="@proveedor.Id">Borrar</a>
+        </td>
+        <td> @Id</td>
+        <td> @proveedor.Name</td>
+        <td> @proveedor.Telefono</td>
+        <td> @proveedor.Direccion</td>
+        <td> @proveedor.Email</td>
+    </tr>
+}
+</tbody>
+
+<tfoot>
+
+</tfoot>
+</table>

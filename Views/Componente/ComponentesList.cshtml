@@ -1,0 +1,69 @@
+@model IEnumerable<ComponentesModel> 
+
+@{
+    ViewData["Title"] = "Listado de Componentes";
+    int Id = 0;
+}
+
+<link rel="stylesheet" href="~/css/views.css">
+
+<div class="container-tablas">
+    <div class="tabla-titul">
+        <h1>Listado de Componentes</h1>
+        <a asp-controller="Componente" asp-action="ComponentesAdd">+ Añadir</a>
+    </div>
+<table class="tablass table table-borderless table-striped table-hover ">  
+    <thead>
+        
+        <tr>
+            <th scope="col">Acciones </th>
+            <th scope="col">ID</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Descripción</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+        </tr>
+
+    </thead>
+<tbody>
+@foreach(var componente in Model)
+{
+    {
+            Id++;
+        }
+    <tr>
+        <td>
+<div class="editarr">
+<a asp-controller="Componente" asp-action="ComponentesEdit" asp-route-id="@componente.Id">
+    <img src="~/imgadmin/edit.svg" alt="">
+</a>
+</div>
+<div class="editarr">
+<a  asp-controller="Componente" asp-action="ComponentesDeleted" asp-route-id="@componente.Id">
+    <img src="~/imgadmin/basura.svg" alt="">
+</a>
+</div>
+        </td>
+
+        
+        <td>
+            @Id
+        </td>
+          <td>
+            @componente.Name
+        </td>
+          <td>
+            @componente.Descripcion
+        </td>
+          <td>
+            @componente.Precio
+        </td>
+          <td>
+            @componente.Cantidad
+        </td>
+    </tr>
+}
+</tbody>
+</div>
+
+</table>
