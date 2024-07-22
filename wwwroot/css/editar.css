@@ -33,14 +33,14 @@ form{
 
 .formu{
     margin-top: 100px;
-    background-color: rgb(24, 23, 23);
+    background-color: rgba(24, 23, 23, 0.59);
     text-align: center;
 }
 
 .container-editar{
     padding: 5px;
     border-radius: 10px 10px 0px 0px;
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.527);
 }
 
 .container-editar h1{

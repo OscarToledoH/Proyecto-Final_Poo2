@@ -4,7 +4,7 @@
 }
 <link rel="stylesheet" href="~/css/añadir.css">
 
- 
+<div asp-validation-summary="All" class="text-danger"></div>
 
 
 <div class="container-addd">
@@ -24,12 +24,7 @@
         <input type="text" class="form-control" id="Descripcion" name="Descripcion" placeholder="Escriba la descripcón del componente:" />
       </div>
 
-      <div class="mb-3">
-        <select class="form-select" asp-for="ProveedorId" asp-items="@Model.ListProveedores" name="" id="">
-          <option value="">Seleccionar proveedor</option>
-        </select>
-        <span asp-validation-for="ProveedorId" class="text-danger" ></span>
-      </div>
+      <!---->
 
      <div class="mb-3">
       <label for="nombre" class="form-label">Precio</label>

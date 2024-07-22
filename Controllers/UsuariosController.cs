@@ -140,7 +140,7 @@ namespace PrimerAvancePOO2.Controllers
 
 
         [HttpPost]
-        // [Authorize(Roles = MyConstants.RolAdmin)]
+        [Authorize(Roles = MyConstants.RolAdmin)]
         public  async Task<IActionResult> HacerAdmin(string email)
         {
             var usuario = await _context.Users
@@ -161,7 +161,7 @@ namespace PrimerAvancePOO2.Controllers
         }
 
         [HttpPost]
-        // [Authorize(Roles = MyConstants.RolAdmin)]
+         [Authorize(Roles = MyConstants.RolAdmin)]
         public async Task<IActionResult> RemoverAdmin(string email)
         {
             var usuario = await _context.Users
