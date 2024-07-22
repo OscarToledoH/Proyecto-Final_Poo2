@@ -7,42 +7,50 @@
 <link rel="stylesheet" href="~/css/views.css">
 
 
-<div class="text-center">
-<h1 class="display-2">Listado de Perifericos</h1>
-<a asp-controller="Perifericos" asp-action="PerifericosAdd" class="btn btn-outline-primary"> Agregar Periferico </a>
+<div class="container-tablas">
+    <div class="tabla-titul">
+        <h1>Listado de Perifericos</h1>
+        <a asp-controller="Perifericos" asp-action="PerifericosAdd">+ Añadir</a>
+    </div>
+
+
+    <table class="tablass table table-borderless table-striped table-hover">  
+        <thead>
+            <tr>
+                <th scope="col">Acciones </th>
+                <th  scope="col">ID</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var per in Model)
+            {
+                {
+                    Id++;
+                }
+                <tr>
+                    <td>
+            <a class="btn" asp-controller="Perifericos" asp-action="PerifericosEdit" asp-route-id="@per.Id">
+                <img class="editarr" src="~/imgadmin/edit.svg" alt="">
+            </a>
+            <a class="btn" asp-controller="Perifericos" asp-action="PerifericosDeleted" asp-route-id="@per.Id">
+                <img class="editarr" src="~/imgadmin/basura.svg" alt="">
+            </a>
+                    </td>
+                    <td> @Id </td>
+                    <td> @per.Name</td>
+                    <td> @per.Tipo</td>
+                    <td> @per.precio</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
 </div>
-<table class="table table-striped">  
-    <thead>
-<tr>
-    <th scope="col">Acciones </th>
-    <th  scope="col">ID</th>
-    <th scope="col">Nombre</th>
-    <th scope="col">Tipo</th>
-    <th scope="col">Precio</th>
 
-</tr>
 
-    </thead>
-<tbody>
-@foreach (var per in Model)
-{
-    {
-        Id++;
-    }
-    <tr>
-        <td>
-<a class="btn btn-primary" asp-controller="Perifericos" asp-action="PerifericosEdit" asp-route-id="@per.Id">Editar</a>
-<a class="btn btn-danger" asp-controller="Perifericos" asp-action="PerifericosDeleted" asp-route-id="@per.Id">Borrar</a>
-        </td>
-        <td> @Id </td>
-        <td> @per.Name</td>
-        <td> @per.Tipo</td>
-        <td> @per.precio</td>
-    </tr>
-}
-</tbody>
 
-<tfoot>
 
-</tfoot>
-</table>

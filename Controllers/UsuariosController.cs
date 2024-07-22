@@ -20,11 +20,16 @@ namespace PrimerAvancePOO2.Controllers
 
         private readonly ApplicationDbContext _context;
 
-        public UsuariosController(UserManager<IdentityUser> userManager,SignInManager<IdentityUser> signInManager ,ApplicationDbContext context)
+        private readonly ILogger<UsuariosController> _logger;
+
+        public UsuariosController(UserManager<IdentityUser> userManager
+            ,SignInManager<IdentityUser> signInManager ,ApplicationDbContext context
+            , ILogger<UsuariosController> logger)
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
             this._context = context;
+            this._logger = logger;
         }
 
 
@@ -135,7 +140,7 @@ namespace PrimerAvancePOO2.Controllers
 
 
         [HttpPost]
-        [Authorize(Roles = MyConstants.RolAdmin)]
+        // [Authorize(Roles = MyConstants.RolAdmin)]
         public  async Task<IActionResult> HacerAdmin(string email)
         {
             var usuario = await _context.Users
@@ -143,17 +148,20 @@ namespace PrimerAvancePOO2.Controllers
 
             if (usuario is null)
             {
+                this._logger.LogWarning("Error es nulo");
                 return NotFound();
             }
 
+            this._logger.LogInformation("Etsto esta bien");
             await userManager.AddToRoleAsync(usuario, MyConstants.RolAdmin);
 
-            return RedirectToAction("UsuariosList",
+             this._logger.LogInformation("redireccion");
+            return RedirectToAction("UsuariosList", "Usuarios",
                 routeValues: new { confirmed = "Rol asignado correctamente a " + email , remove = ""  });
         }
 
         [HttpPost]
-        [Authorize(Roles = MyConstants.RolAdmin)]
+        // [Authorize(Roles = MyConstants.RolAdmin)]
         public async Task<IActionResult> RemoverAdmin(string email)
         {
             var usuario = await _context.Users

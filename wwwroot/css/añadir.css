@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+    background: linear-gradient(50deg,#751178,#4d12a5,#381074);
+    
+    background-size: 300% 100%;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container-addd{
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
+    background-color: rgba(179, 178, 178, 0.421);
+}
+
+.content-addd h1{
+    margin-top: 100px;
+    color:white;
+    text-align: center;
+    
+}
+
+form{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.boton{
+    position: relative;
+    left:150px;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgba(179, 178, 178, 0.421);
+    color: white;
+}

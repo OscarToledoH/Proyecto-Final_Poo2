@@ -3,6 +3,8 @@ using PrimerAvancePOO2.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using PrimerAvancePOO2.Entities;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace PrimerAvancePOO2.Controllers;
 
@@ -15,23 +17,25 @@ public class ComponenteController : Controller
         _logger=logger;
         _context=context;
     }
-    public IActionResult ComponentesList()
+    public async Task<IActionResult> ComponentesList()
     {
-        List<ComponentesModel> list=new List<ComponentesModel>();
-        list=_context.Componentes.Select(b=>new ComponentesModel()
+        List<ComponentesModel> componente
+        =await _context.Componentes
+        .Include(pp => pp.Proveedor)
+        .Select(componente=>new ComponentesModel()
         {
-            Id=b.Id,
-            Name=b.Name,
-            Descripcion=b.Descripcion,
-            Precio=b.precio,
-            Cantidad=b.cantidad
-        }).ToList();
-        return View(list);
+            Id=componente.Id,
+            Name=componente.Name,
+            Descripcion=componente.Descripcion,
+            Precio=componente.precio,
+            Cantidad=componente.cantidad
+        }).ToListAsync();
+        return View(componente);
     }
 
 
     [HttpGet]
-    public IActionResult ComponentesAdd()
+    public async Task<IActionResult> ComponentesAdd()
     {
         return View();
     }

@@ -2,12 +2,26 @@
 @{
     ViewData["Title"] = "Borrar el proveedor";
 }
- 
-  <div class="mb-3">
-¿Estas seguro de que deseas borrar al proveedor @Model.Name ?
-</div>
+
+  <link rel="stylesheet" href="~/css/borrar.css">
+
+
+<div class="container-borrar">
+    <div class="mac">
+      <img src="~/imgadmin/red.svg" alt="">
+      <img src="~/imgadmin/orange.svg" alt="">
+      <img src="~/imgadmin/green.svg" alt="">
+    </div>
+
+    <div class="content-borrar">
+      <h1>¿Estas seguro de que deseas borrar al proveedor @Model.Name ?</h1>
+    </div>
+
+
 
 <form asp-controller="Proveedor" asp-action="ProveedoresDeleted">
-<button type="submit" class ="btn btn-danger">Borrar</button>
-<a class="btn btn-secundary" asp-asp-controller="Proveedor" asp-action="ProveedoresList" >Regresar </a>
+<button type="submit" class ="boton">Borrar</button>
+<button class="boton" asp-asp-controller="Proveedor" asp-action="ProveedoresList" >Regresar </button>
 </form>
+
+

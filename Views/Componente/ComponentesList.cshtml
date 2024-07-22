@@ -5,6 +5,7 @@
     int Id = 0;
 }
 
+
 <link rel="stylesheet" href="~/css/views.css">
 
 <div class="container-tablas">
@@ -33,16 +34,16 @@
         }
     <tr>
         <td>
-<div class="editarr">
-<a asp-controller="Componente" asp-action="ComponentesEdit" asp-route-id="@componente.Id">
-    <img src="~/imgadmin/edit.svg" alt="">
+
+<a class="btn"  asp-controller="Componente" asp-action="ComponentesEdit" asp-route-id="@componente.Id">
+    <img class="editarr" src="~/imgadmin/edit.svg" alt="">
 </a>
-</div>
-<div class="editarr">
-<a  asp-controller="Componente" asp-action="ComponentesDeleted" asp-route-id="@componente.Id">
-    <img src="~/imgadmin/basura.svg" alt="">
+
+
+<a class="btn" asp-controller="Componente" asp-action="ComponentesDeleted"  asp-route-id="@componente.Id">
+    <img class="editarr" src="~/imgadmin/basura.svg" alt="">
 </a>
-</div>
+
         </td>
 
         
@@ -67,3 +68,56 @@
 </div>
 
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+data-bs-toggle="modal" data-bs-target="#ejemploModal"
+
+<div class="modal fade" id="ejemploModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered ">
+        <div class="modal-content ventana">
+            <div class="vent-titulo">
+                <img src="~/imgadmin/red.svg" alt="">
+                <img src="~/imgadmin/orange.svg" alt="">
+                <img src="~/imgadmin/green.svg" alt="">
+                
+                    
+            </div>
+                <div class="modal-body">
+                    <h4>¿Estas seguro que deseas borrar el componente?</h4>
+                    
+                </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button class="btn btn-primary' data-bs-dismiss="modal">Salvar cambios</button>
+                    </div>
+        </div>
+    </div>
+</div>
+-->

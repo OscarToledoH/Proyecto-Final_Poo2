@@ -10,6 +10,10 @@ namespace PrimerAvancePOO2.Entities
     public int cantidad { get; set; }   
    
 
+/* ESTE ES LA RELACION ENTRE COMPONENTES Y PROVEEDOR*/
+    public Guid? ProveedorId { get; set; }
+
+    public  Proveedor? Proveedor { get; set; }
 
     }
 }

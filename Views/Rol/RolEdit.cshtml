@@ -3,16 +3,17 @@
 @{
     ViewData["Title"] = "Editar Roles de Usuario";
 }
+<link rel="stylesheet" href="~/css/editar.css">
 
-<h1>@ViewData["Title"]</h1>
 
-<form asp-action="RolEdit" asp-controller="Rol">
 
-    <div class="form-floating mb-3">
+<form class="formu" asp-action="RolEdit" asp-controller="Rol">
+
+    <div class="mb-3">
+        <h1 class="">Editar rol de: @Model.Name</h1>
         <input type="text" class="form-control" asp-for="Name" placeholder="Nombre del Rol">
-        <label asp-for="Name">Nombre del Rol</label>
     </div>
 
-    <button class="btn btn-outline-primary">Guardar</button>
-    <a class="btn btn-outline-secundary" asp-action="RolList" asp-controller="Rol">Regresar</a>
+    <button class="boton">Guardar</button>
+    <button class="boton mb-3" asp-action="RolList" asp-controller="Rol">Regresar</button>
 </form>

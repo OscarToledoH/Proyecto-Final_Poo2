@@ -5,36 +5,47 @@
 }
 <link rel="stylesheet" href="~/css/views.css">
 
-<div class="text-center">
-    <h1 class="display-2 text-center">@ViewData["Title"]</h1>
-    <a class="btn btn-outline-primary" asp-action="RolAdd" asp-asp-controller="Rol">Crear Rol de Usuario</a>
-</div>
+<div class="container-tablas">
+    <div class="tabla-titul">
+        <h1>Listado de Roles de Usuarios</h1>
+        <a asp-action="RolAdd" asp-asp-controller="Rol">+Añadir</a>
+    </div>
 
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Nombre</th>
-            <th scope="col">Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var rol in Model)
-        {
-            {
-                numero++;
-            }
+    <table class="tablass table table-borderless table-striped table-hover">
+        <thead>
             <tr>
-                <th scope="row">@numero</th>
-                <td>@rol.Name</td>
-                <td>
-                    <a class="btn btn-outline-info" asp-action="RolEdit" asp-controller="Rol"
-                        asp-route-id="@rol.Id">Editar</a>
-                    <a class="btn btn-outline-danger" asp-action="RolDeleted" asp-controller="Rol"
-                        asp-route-id="@rol.Id">Borrar</a>
-                </td>
+                <th scope="col">Acciones</th>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                
             </tr>
+        </thead>
+        <tbody>
+            @foreach (var rol in Model)
+            {
+                {
+                    numero++;
+                }
+                <tr>
+                    <td>
+                        <a class="btn" asp-action="RolEdit" asp-controller="Rol"
+                            asp-route-id="@rol.Id">
+                            <img class="editarr" src="~/imgadmin/edit.svg" alt="">
+                        </a>
+                        <a class="btn" asp-action="RolDeleted" asp-controller="Rol"
+                            asp-route-id="@rol.Id">
+                            <img class="editarr" src="~/imgadmin/basura.svg" alt="">
+                        </a>
+                    </td>
+                    <th scope="row">@numero</th>
+                    <td>@rol.Name</td>
+                    
+                </tr>
 
-        }
-    </tbody>
-</table>
+            }
+        </tbody>
+    </table>
+
+
+
+</div>

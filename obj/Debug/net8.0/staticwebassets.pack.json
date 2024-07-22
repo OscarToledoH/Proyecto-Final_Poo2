@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\PrimerAvancePOO2.bundle.scp.css"
     },
     {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\css\\añadir.css",
+      "PackagePath": "staticwebassets\\css\\añadir.css"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\css\\borrar.css",
+      "PackagePath": "staticwebassets\\css\\borrar.css"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\css\\carrito.css",
+      "PackagePath": "staticwebassets\\css\\carrito.css"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\css\\editar.css",
+      "PackagePath": "staticwebassets\\css\\editar.css"
+    },
+    {
       "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
@@ -23,6 +39,198 @@
     {
       "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\fuentepoder1.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\fuentepoder1.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\fuentepoder10.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\fuentepoder10.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\fuentepoder11.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\fuentepoder11.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\fuentepoder12.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\fuentepoder12.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\fuentepoder2.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\fuentepoder2.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\fuentepoder3.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\fuentepoder3.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\fuentepoder4.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\fuentepoder4.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\fuentepoder5.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\fuentepoder5.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\fuentepoder6.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\fuentepoder6.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\fuentepoder7.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\fuentepoder7.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\fuentepoder8.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\fuentepoder8.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\fuentepoder9.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\fuentepoder9.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\memoriaram1.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\memoriaram1.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\memoriaram10.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\memoriaram10.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\memoriaram11.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\memoriaram11.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\memoriaram12.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\memoriaram12.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\memoriaram2.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\memoriaram2.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\memoriaram3.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\memoriaram3.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\memoriaram4.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\memoriaram4.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\memoriaram5.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\memoriaram5.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\memoriaram6.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\memoriaram6.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\memoriaram7.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\memoriaram7.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\memoriaram8.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\memoriaram8.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\memoriaram9.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\memoriaram9.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\ssd1.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\ssd1.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\ssd10.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\ssd10.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\ssd11.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\ssd11.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\ssd12.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\ssd12.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\ssd2.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\ssd2.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\ssd3.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\ssd3.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\ssd4.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\ssd4.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\ssd5.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\ssd5.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\ssd6.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\ssd6.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\ssd7.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\ssd7.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\ssd8.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\ssd8.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\ssd9.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\ssd9.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\tarjetamadra12.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\tarjetamadra12.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\tarjetamadre1.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\tarjetamadre1.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\tarjetamadre10.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\tarjetamadre10.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\tarjetamadre11.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\tarjetamadre11.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\tarjetamadre2.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\tarjetamadre2.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\tarjetamadre3.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\tarjetamadre3.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\tarjetamadre4.jpg",
+      "PackagePath": "staticwebassets\\imgDropdown\\tarjetamadre4.jpg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\tarjetamadre5.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\tarjetamadre5.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\tarjetamadre7.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\tarjetamadre7.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\tarjetamadre8.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\tarjetamadre8.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\tarjetamadre9.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\tarjetamadre9.png"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgDropdown\\tarjetamadrer6.png",
+      "PackagePath": "staticwebassets\\imgDropdown\\tarjetamadrer6.png"
     },
     {
       "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgUsuario\\amd.png",
@@ -79,6 +287,22 @@
     {
       "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgadmin\\edit.svg",
       "PackagePath": "staticwebassets\\imgadmin\\edit.svg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgadmin\\green.svg",
+      "PackagePath": "staticwebassets\\imgadmin\\green.svg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgadmin\\orange.svg",
+      "PackagePath": "staticwebassets\\imgadmin\\orange.svg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgadmin\\red.svg",
+      "PackagePath": "staticwebassets\\imgadmin\\red.svg"
+    },
+    {
+      "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgadmin\\yellow.svg",
+      "PackagePath": "staticwebassets\\imgadmin\\yellow.svg"
     },
     {
       "Id": "D:\\Documentos\\PY\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\js\\site.js",

@@ -41,8 +41,8 @@ builder.Services.PostConfigure<CookieAuthenticationOptions>(
     {
         //AQUI SE DEBE COLOCAR EL CONTROLLER , ES DECIR LA CARPETA DONDE ESTARA LA VISTA CREADA , Y LUEGO EL ACTION QUE ES LA VISTA 
        // opc.LoginPath = "/Usuarios/Registros";
-        opc.LoginPath = "/Usuarios/Regitros";
-        opc.AccessDeniedPath = "/Usuarios/Registros";
+        opc.LoginPath = "/Usuarios/Registros";
+        opc.AccessDeniedPath = "/Usuarios/InicioSesion";
     }
 );
 

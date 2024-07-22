@@ -2,24 +2,21 @@
 @{
     ViewData["Title"] = "Editar el componente";
 }
- 
-  <div class="text-center">
-<h1 class="display-2">Editar la información del componente: @Model.Name</h1>
+
+<link rel="stylesheet" href="~/css/editar.css">
+
+<div class="alertas">
+<div asp-validation-summary="All" class="text-danger "></div>
 </div>
-<div asp-validation-summary="All" class="text-danger"></div>
-
- <form asp-controller="Componente" asp-action="ComponentesEdit">
-
-
+ <form class="formu" asp-controller="Componente" asp-action="ComponentesEdit">
+      <div class="container-editar">
+          <h1 class="">Editar componente: @Model.Name</h1>
+      </div>
  <div class="mb-3">
         <label for="nombre" class="form-label">Nombre</label>
         <input type="text" class="form-control" id="nombre" name="Name" placeholder="Escriba el nombre del componente:" />
     </div>
       <div class="mb-3">
-      <label for="nombre" class="form-label">Descripción</label>
-        <input type="text" class="form-control" id="Descripcion" name="Descripcion" placeholder="Escriba la descripcón del componente:" />
-    </div>
-     <div class="mb-3">
       <label for="nombre" class="form-label">Descripción</label>
         <input type="text" class="form-control" id="Descripcion" name="Descripcion" placeholder="Escriba la descripcón del componente:" />
     </div>
@@ -31,7 +28,6 @@
       <label for="nombre" class="form-label">Cantidad</label>
         <input type="text" class="form-control" id="Cantidad" name="Cantidad" placeholder="Escriba la cantidad del componente:" />
     </div>
-    <button type="submit" class="btn btn-primary">Guardar</button>
-<a asp-controller="Componente" asp-action="ComponentesList" class="btn btn-secundary mb-3"> Regresar</a>
- <button type="submit" class="btn btn-secundary">Cancelar</button>
+    <button type="submit" class="boton">Guardar</button>
+    <button asp-controller="Componente" asp-action="ComponentesList" class="boton mb-3"> Regresar</button>
  </form>

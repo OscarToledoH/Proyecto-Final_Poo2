@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Documentos\PY\Primer-Avance-POO2\PrimerAvancePOO2
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Documentos/PY/Primer-Avance-POO2/PrimerAvancePOO2/Views/Carro/CarritoList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9cQ2Fycml0b0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Documentos/PY/Primer-Avance-POO2/PrimerAvancePOO2/Views/Componente/ComponentesAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50ZVxDb21wb25lbnRlc0FkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,6 +36,38 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Documentos/PY/Primer-Avance-POO2/PrimerAvancePOO2/Views/Componente/ComponentesList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50ZVxDb21wb25lbnRlc0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/PY/Primer-Avance-POO2/PrimerAvancePOO2/Views/Dropdown2/Monitores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJvcGRvd24yXE1vbml0b3Jlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/PY/Primer-Avance-POO2/PrimerAvancePOO2/Views/Dropdown2/Mouse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJvcGRvd24yXE1vdXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/PY/Primer-Avance-POO2/PrimerAvancePOO2/Views/Dropdown2/Teclados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJvcGRvd24yXFRlY2xhZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/PY/Primer-Avance-POO2/PrimerAvancePOO2/Views/Dropdown/Almacenamiento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJvcGRvd25cQWxtYWNlbmFtaWVudG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/PY/Primer-Avance-POO2/PrimerAvancePOO2/Views/Dropdown/FuentePoder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJvcGRvd25cRnVlbnRlUG9kZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/PY/Primer-Avance-POO2/PrimerAvancePOO2/Views/Dropdown/MemoriaRam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJvcGRvd25cTWVtb3JpYVJhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/PY/Primer-Avance-POO2/PrimerAvancePOO2/Views/Dropdown/TarjetaMadre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJvcGRvd25cVGFyamV0YU1hZHJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/PY/Primer-Avance-POO2/PrimerAvancePOO2/Views/Dropdown/Todos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJvcGRvd25cVG9kb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Documentos/PY/Primer-Avance-POO2/PrimerAvancePOO2/Views/Home/Index.cshtml]

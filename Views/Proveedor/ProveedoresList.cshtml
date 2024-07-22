@@ -6,11 +6,12 @@
 }
 <link rel="stylesheet" href="~/css/views.css">
 
-<div class="text-center">
-<h1 class="display-2">Listado de Proveedores</h1>
-<a asp-controller="Proveedor" asp-action="ProveedoresAdd" class="btn btn-outline-primary"> Agregar Proveedor </a>
-</div>
-<table class="table table-striped">  
+<div class="container-tablas">
+    <div class="tabla-titul">
+        <h1>Listado de Proveedores</h1>
+        <a asp-controller="Proveedor" asp-action="ProveedoresAdd">+ Añadir</a>
+    </div>
+<table class="tablass table table-borderless table-striped table-hover">  
     <thead>
 <tr>
     <th scope="col">Acciones </th>
@@ -31,8 +32,13 @@
     }
     <tr>
         <td>
-<a class="btn btn-primary" asp-controller="Proveedor" asp-action="ProveedoresEdit" asp-route-id="@proveedor.Id">Editar</a>
-<a class="btn btn-danger" asp-controller="Proveedor" asp-action="ProveedoresDeleted" asp-route-id="@proveedor.Id">Borrar</a>
+<a class="btn" asp-controller="Proveedor" asp-action="ProveedoresEdit" asp-route-id="@proveedor.Id">
+    <img class="editarr" src="~/imgadmin/edit.svg" alt="">
+</a>
+
+<a class="btn " asp-controller="Proveedor" asp-action="ProveedoresDeleted" asp-route-id="@proveedor.Id">
+    <img class="editarr" src="~/imgadmin/basura.svg" alt="">
+</a>
         </td>
         <td> @Id</td>
         <td> @proveedor.Name</td>
@@ -42,8 +48,5 @@
     </tr>
 }
 </tbody>
-
-<tfoot>
-
-</tfoot>
 </table>
+</div>

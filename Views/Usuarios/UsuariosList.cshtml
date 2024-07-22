@@ -6,11 +6,6 @@
 }
 <link rel="stylesheet" href="~/css/views.css">
 
-<div class="text-center">
-    <h1 class="display-2">Listado de usuarios</h1>
-</div>
-
-
 @if (Model.MessageConfirmed is not null || Model.MessageConfirmed == "")
 {
     <div class="alert alert-success" role="alert">
@@ -25,10 +20,16 @@
     </div>  
 }
 
-@if (Model.UserList is not null)
+
+<div class="container-tablas">
+    <div class="tabla-titul">
+        <h1>Listado de usuarios</h1>
+    </div>
+
+    @if (Model.UserList is not null)
 {
     <form method="post">
-        <table class="table table-hover">
+        <table class="tablasss table table-striped table-borderless table-hover">
             <thead>
                 <tr>
                     <td>Accion</td>
@@ -67,3 +68,9 @@ else
 {
     <p>No hay usuarios para mostrar</p>
 }
+
+</div>
+
+
+
+

@@ -1,0 +1,67 @@
+body{
+    background-color: white;
+    background: linear-gradient(50deg,#1e7d15,#11753f,rgb(17, 106, 109),#17b91a,#386a21);
+    
+    background-size: 300% 100%;
+    animation: gradient 10s ease infinite; 
+}
+
+@keyframes gradient{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+form{
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.alertas{
+    margin: 0;
+    display: grid;
+    place-content: center;
+}
+
+.formu{
+    margin-top: 100px;
+    background-color: rgb(24, 23, 23);
+    text-align: center;
+}
+
+.container-editar{
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: green;
+}
+
+.container-editar h1{
+    color:  greenyellow;
+}
+
+
+.mb-3 label{
+    text-align: center;
+}
+
+.mb-3 input {
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+.boton{
+    background-color: greenyellow;
+    border: 0;
+    border-radius: 5px;
+    color: rgb(7, 70, 14);
+    padding: 5px;
+}

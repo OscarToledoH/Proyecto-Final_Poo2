@@ -1,0 +1,12 @@
+body{
+    background-color: white;
+}
+
+
+.container-titulo{
+    margin-top: 10px;
+}
+
+.container-titulo h1{
+    text-align: center;
+}

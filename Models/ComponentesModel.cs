@@ -5,6 +5,7 @@ public class ComponentesModel
 {
     public ComponentesModel()
     {
+        ListProveedores = new List<SelectListItem>();
        
     }
      public Guid Id { get; set; }
@@ -12,5 +13,15 @@ public class ComponentesModel
     public string Descripcion { get; set; }
     public int Precio { get; set; } 
     public int Cantidad { get; set; }
-    
+
+    /**/
+
+    public Guid ProveedorId { get; set; }
+
+    public ProveedoresModel? ProveedoresModel{ get; set; }
+
+    public string? ProveedorName { get; set; }
+
+
+    public List<SelectListItem> ListProveedores { get; }
 }

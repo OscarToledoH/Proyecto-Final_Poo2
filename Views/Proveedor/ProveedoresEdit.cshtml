@@ -2,14 +2,19 @@
 @{
     ViewData["Title"] = "Borrar al proveedor:";
 }
+
+<link rel="stylesheet" href="~/css/editar.css">
+
+  <div class="alertas">
+    <div asp-validation-summary="All" class="text-danger"></div>
+  </div>
+
  
-  <div class="text-center">
-<h1 class="display-2">Editar la información del proveedor: @Model.Name</h1>
-</div>
-<div asp-validation-summary="All" class="text-danger"></div>
 
- <form asp-controller="Proveedor" asp-action="ProveedoresEdit">
-
+ <form class="formu" asp-controller="Proveedor" asp-action="ProveedoresEdit">
+    <div class="container-editar">
+      <h1 class="">Editar proveedor: @Model.Name</h1>
+    </div>
 
   <div class="mb-3">
         <label for="nombre" class="form-label">Nombre</label>
@@ -28,7 +33,6 @@
       <label for="nombre" class="form-label">Email</label>
         <input type="text" class="form-control" id="Email" name="Email" placeholder="Escriba el Email del proveedor:" />
     </div>
-    <button type="submit" class="btn btn-primary mb-3">Guardar</button>
-<a asp-controller="Proveedor" asp-action="ProveedoresList" class="btn btn-secundary mb-3"> Regresar</a>
- <button type="submit" class="btn btn-secundary">Cancelar</button>
+    <button type="submit" class="boton">Guardar</button>
+    <button class="boton mb-3" asp-controller="Proveedor" asp-action="ProveedoresList" class="btn btn-secundary mb-3"> Regresar</button>
  </form>

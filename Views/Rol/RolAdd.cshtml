@@ -2,17 +2,25 @@
 @{
     ViewData["Title"] = "Crear Roles de Usuario";
 }
-<link rel="stylesheet" href="~/css/views.css">
+<link rel="stylesheet" href="~/css/añadir.css">
 
-<h1>@ViewData["Title"]</h1>
-
-<form asp-action="RolAdd" asp-controller="Rol">
-
-    <div class="form-floating mb-3">
-        <input type="text" class="form-control" asp-for="Name" placeholder="Nombre del Rol">
-        <label asp-for="Name">Nombre del Rol</label>
+<div class="container-addd">
+    <div class="content-addd">
+        <h1>Alta de rol de usuario</h1>
     </div>
+    
+    
+    <form asp-action="RolAdd" asp-controller="Rol">
+    
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" asp-for="Name" placeholder="Nombre del Rol">
+            <label asp-for="Name">Nombre del Rol</label>
+        </div>
+    
+        <button class="boton">Guardar</button>
+        <button class="boton" asp-action="RolList" asp-controller="Rol">Regresar</button>
+    </form>
 
-    <button class="btn btn-outline-primary">Guardar</button>
-    <a class="btn btn-outline-secundary" asp-action="RolList" asp-controller="Rol">Regresar</a>
-</form>
+</div>
+
+

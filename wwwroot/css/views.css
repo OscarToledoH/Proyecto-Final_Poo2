@@ -1,9 +1,24 @@
 body{
-    background-color:  rgb(62, 42, 110);
+    /*background-color:rgb(29, 30, 66);*/
+    background-color: white;
+    background: linear-gradient(50deg,#751178,#4d12a5,#381074);
+    
+    background-size: 300% 100%;
+    animation: gradient 5s ease infinite;
 }
 
-.display-2{
-    color: black;
+
+
+@keyframes gradient{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .container-tablas{
@@ -39,15 +54,14 @@ body{
     margin-left: 30px;
     font-size: 17px;
     text-decoration: none;
-    color: black;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background-color: rgb(211, 214, 216);
+    background-color: rgb(98, 77, 227);
     padding: 5px;
 }
-
 
 
 
@@ -61,9 +75,40 @@ body{
     text-align: center;
 }
 
+.tablasss{
+    background-color: rgba(207, 202, 202, 0.421);
+}
+
 .editarr{ 
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     
 }
 
+
+
+
+
+
+
+
+/*Diseño del Modal en caso de cambio*/
+.ventana{
+    background-color: #d8d5dc;
+}
+
+.vent-titulo{
+    background-color: rgb(190, 196, 198);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.vent-titulo img{
+    margin: 7px;
+    width: 12px;
+    height: 12px;
+}
+
+.modal-title{
+    
+
+}

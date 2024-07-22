@@ -3,16 +3,22 @@
 @{
     ViewData["Title"] = "Borrar Roles de Usuario";
 }
+    <link rel="stylesheet" href="~/css/borrar.css">
 
-<h1>@ViewData["Title"]</h1>
-
-<form asp-action="RolDeleted" asp-controller="Rol">
-
-    <div class="form-floating mb-3">
-        <input type="text" class="form-control" asp-for="Name" placeholder="Nombre del Rol" readonly>
-        <label asp-for="Name">Nombre del Rol</label>
+<div class="container-borrar">
+    <div class="mac">
+        <img src="~/imgadmin/red.svg" alt="">
+        <img src="~/imgadmin/orange.svg" alt="">
+        <img src="~/imgadmin/green.svg" alt="">
+    </div>
+    <div class="content-borrar">
+        <h1>¿Estas seguro que deseas borrar el Rol de usario de @Model.Name?</h1>
     </div>
 
-    <button class="btn btn-outline-primary">Guardar</button>
-    <a class="btn btn-outline-secundary" asp-action="RolList" asp-controller="Rol">Regresar</a>
-</form>
+    <form asp-action="RolDeleted" asp-controller="Rol">
+        <button class="boton">Guardar</button>
+        <button class="boton" asp-action="RolList" asp-controller="Rol">Regresar</button>
+    </form>
+</div>
+
+

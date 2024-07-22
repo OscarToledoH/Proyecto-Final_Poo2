@@ -23,9 +23,10 @@
                     Componentes PC
                 </button>
                 <ul class="dropdown-menu men">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Action two</a></li>
-                    <li><a class="dropdown-item" href="#">Action three</a></li>
+                    <li><a asp-controller="Dropdown" asp-action="TarjetaMadre" class="dropdown-item" >Tarjeta Madre</a></li>
+                    <li><a asp-controller="Dropdown" asp-action="FuentePoder" class="dropdown-item" >Fuente de Poder</a></li>
+                    <li><a asp-controller="Dropdown" asp-action="MemoriaRam" class="dropdown-item" >Memoria Ram</a></li>
+                    <li><a asp-controller="Dropdown" asp-action="Almacenamiento" class="dropdown-item" >Almacenamiento</a></li>
                 </ul>
                 </div>
 
@@ -35,12 +36,12 @@
                     Perifericos PC
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Action two</a></li>
-                    <li><a class="dropdown-item" href="#">Action three</a></li>
+                    <li><a asp-controller="Dropdown2" asp-action="Monitores" class="dropdown-item" >Monitores</a></li>
+                    <li><a asp-controller="Dropdown2" asp-action="Mouse" class="dropdown-item" >Mouse</a></li>
+                    <li><a asp-controller="Dropdown2" asp-action="Teclados" class="dropdown-item" >Teclados</a></li>
                 </ul>
             </div>
-             <div class="dropdown-center">
+            <div class="dropdown-center">
                 <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Administrador
@@ -66,7 +67,7 @@
 
             <!--CARRITO DE COMPRAS-->
             <div class="d-flex">
-                    <a href="">
+                    <a asp-controller="Carro" asp-action="CarritoList">
                         <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-cart4"
                             viewBox="0 0 16 16">
                             <path

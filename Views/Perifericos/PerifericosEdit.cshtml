@@ -3,24 +3,34 @@
 @{
     ViewData["Title"] = "Editar el periferico";
 }
+<link rel="stylesheet" href="~/css/editar.css">
 
-<h1>@ViewData["Title"]</h1>
 
-<form asp-action="PerifericosEdit" asp-controller="Perifericos">
+<div class="alertas">
+    <div asp-validation-summary="All" class="text-danger "></div>
+</div>
+
+
+<form class="formu" asp-action="PerifericosEdit" asp-controller="Perifericos">
     <input type="hidden" asp-for"Id">
 
-    <div class="form-floating mb-3">
-        <input type="text" class="form-control" asp-for="Name" placeholder="Nombre del Periferico">
+    <div class="container-editar">
+      <h1 class="">Editar Periferico @Model.Name</h1>
+    </div>
+
+    <div class="mb-3">
         <label asp-for="Name">Nombre del Periferico</label>
+        <input type="text" class="form-control" asp-for="Name" placeholder="Nombre del Periferico">
+        
     </div>
-      <div class="form-floating mb-3">
-        <input type="textarea" class="form-control" asp-for="Tipo" rows="5">
+      <div class="mb-3">
         <label asp-for="Tipo">Tipo</label>
+        <input type="textarea" class="form-control" asp-for="Tipo" rows="5">
     </div>
-      <div class="form-floating mb-3">
-        <input type="textarea" class="form-control" asp-for="precio" rows="5">
+      <div class="mb-3">
         <label asp-for="precio">Precio</label>
+        <input type="textarea" class="form-control" asp-for="precio" rows="5">
     </div>
-    <button class="btn btn-outline-primary">Guardar</button>
-    <a class="btn btn-outline-secundary" asp-action="PerifericosList" asp-controller="Perifericos">Regresar</a>
+    <button class="boton">Guardar</button>
+    <button class="boton mb-3" asp-action="PerifericosList" asp-controller="Perifericos">Regresar</button>
 </form>
