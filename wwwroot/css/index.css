@@ -1,13 +1,14 @@
 
 /*DISEÑO DE BOTON DE SALIR O CERRAR SESION*/
 .content-lg{
+  z-index: 1;
   width: 80px;
   padding: 10px;
   background-color: aliceblue;
   border-radius: 15px 1px 0px 15px;
   box-shadow: 3px 8px rgb(139, 133, 133);
   position: relative;
-  left: 1420px;
+  left: 1379px;
   top: 15px;
 }
 

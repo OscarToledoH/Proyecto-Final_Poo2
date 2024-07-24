@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,7 +18,7 @@
         <div class="nav">
             <div class="containerr">
                 <img class="image" asp-action="Index" asp-controller="Home" src="/imgUsuario/logodemo.png" alt="">
-                <a asp-controller="Home" asp-action="Index" class="logo-title">PCHACK</a>
+                <a asp-controller="Home" asp-action="Index" class="logo-title">AREA PC</a>
                 <!--MENU DESPLEGABLE-->
                 <div class="dropdown-center">
                 <button class="btn btn-outline-light dropdown-toggle drop" type="button" data-bs-toggle="dropdown"
@@ -43,6 +46,7 @@
             </div>
 
             @if(User.IsInRole("ADMIN")){
+                
                  <div class="dropdown-center">
                 <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
@@ -58,15 +62,32 @@
                 </div>
             }
             
-           
-            </div>
-
+        
+        </div>
+        
 
             <!--INICIO DE SESION-->
-            <div class="container-LR">
-                <a class="content-LR" asp-controller="Usuarios" asp-action="InicioSesion" >Login</a>
-                <a class="content-LR" asp-controller="Usuarios" asp-action="Registros">Registrarme</a>
-            </div>
+            @if (SignInManager.IsSignedIn(User))
+        {
+            
+
+            <li class="container-lg">
+                <form class="content-lg" asp-action="Logout" asp-controller="Usuarios">
+                    <button type="submit" class="nav-link btn btn-link text-dark" >
+                        Logout
+                    </button>
+                </form>
+            </li>
+        }
+        else
+        {
+            <li class="nav-item">
+                <a class="nav-link dark-text" asp-controller="Usuarios" asp-action="Registros">Registro</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link dark-text" asp-controller="Usuarios" asp-action="InicioSesion">Iniciar Sesion</a>
+            </li>
+        }
 
 
 
